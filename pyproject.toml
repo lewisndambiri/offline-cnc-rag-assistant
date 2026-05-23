@@ -1,0 +1,35 @@
+[project]
+name = "cnc-rag-assistant"
+version = "0.1.0"
+description = "Offline RAG assistant prototype for CNC machine operation and maintenance documentation."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "faiss-cpu>=1.8.0",
+    "numpy>=1.26.0",
+    "pydantic>=2.7.0",
+    "pypdf>=4.2.0",
+    "requests>=2.32.0",
+    "sentence-transformers>=3.0.0",
+]
+
+[project.optional-dependencies]
+api = [
+    "fastapi>=0.111.0",
+    "uvicorn>=0.30.0",
+]
+ui = [
+    "streamlit>=1.36.0",
+]
+dev = [
+    "pytest>=8.2.0",
+    "ruff>=0.5.0",
+]
+
+[project.scripts]
+cnc-rag = "cnc_rag.cli:main"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
