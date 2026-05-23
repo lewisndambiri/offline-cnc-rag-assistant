@@ -413,6 +413,8 @@ This project demonstrates practical industrial AI engineering:
 
 The result is a compact but realistic prototype of how RAG can support CNC operation and maintenance workflows without sending sensitive shop-floor documentation to external services.
 
+![Overview](docs/skills/cnc-rag-skills-icon-map-4k.png)
+
 ## Learning Reference: RAG Concepts
 
 This project was informed by modern RAG learning material, including Anthropic's Claude/API course resources. It is not designed as a direct course implementation or Claude-specific clone. Instead, it applies the same general RAG ideas to an offline industrial use case: CNC machine documentation.
