@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "id": "safety_before_operation",
+      "question": "What safety precautions should I follow before operating the machine?",
+      "expected_pages": [35, 38, 51],
+      "expected_terms": ["authorized", "trained", "emergency stop", "motion"]
+    },
+    {
+      "id": "mdi_mode",
+      "question": "How do I use MDI mode?",
+      "expected_pages": [77, 223],
+      "expected_terms": ["mdi", "manual data input", "unsaved programs"]
+    },
+    {
+      "id": "tool_offsets",
+      "question": "How do I set a tool offset?",
+      "expected_pages": [167, 182],
+      "expected_terms": ["tool offset", "offset", "tool length"]
+    },
+    {
+      "id": "active_program",
+      "question": "How do I select or edit the active program?",
+      "expected_pages": [87, 151],
+      "expected_terms": ["active program", "program editor", "alter"]
+    },
+    {
+      "id": "g_m_codes",
+      "question": "Where are G codes and M codes listed?",
+      "expected_pages": [233, 234, 442],
+      "expected_terms": ["g code", "m code", "list of g-codes"]
+    }
+  ]
+}
