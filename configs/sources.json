@@ -1,0 +1,24 @@
+{
+  "machine": "Haas CNC Mill with Next Generation Control",
+  "sources": [
+    {
+      "id": "haas_mill_ngc_operator_2025",
+      "title": "Haas Mill NGC Operator's Manual",
+      "type": "operator_manual",
+      "url": "https://www.haascnc.com/content/dam/haascnc/en/service/manual/operator/english---mill-ngc---operator%27s-manual---2025.pdf",
+      "local_path": "data/raw/manuals/haas_mill_ngc_operator_2025.pdf",
+      "publisher": "Haas Automation",
+      "notes": "Primary corpus document for an MVP."
+    },
+    {
+      "id": "haas_operator_manual_hub",
+      "title": "Haas Operator's and Service Manuals Hub",
+      "type": "source_index",
+      "url": "https://www.haascnc.com/owners/Service/operators-manual.html",
+      "local_path": null,
+      "publisher": "Haas Automation",
+      "notes": "Current official manual index; useful for expanding the corpus."
+    }
+  ]
+}
+
